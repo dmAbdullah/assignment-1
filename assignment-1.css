@@ -1,17 +1,35 @@
 /* header styles */
-.banner-content{
-    text-align: right;
-    margin-top: 80px;
-    margin-right: 100px;
+.banner {
+  max-height: 669px;
+  background-image: url(/images/banner/banner1.png);
+}
+.banner-content {
+  text-align: right;
+  margin-top: 80px;
+  margin-right: 100px;
 }
 /* button styles */
-.primary-btn{
-    font-size: 18px;
-    font-weight: 600;
-    color: white;
-    background-color: orangered;
-    border: 0px;
-    border-radius: 5px;
-    padding: 12px 20px;
+.primary-btn {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background-color: orangered;
+  border: 0px;
+  border-radius: 5px;
+  padding: 12px 20px;
+}
 
+/* blog styles */
+.blog{
+    display: flex;
+    align-items: center;
+}
+
+.blog-image{
+    width: 50%;
+    height: 10%;
+}
+
+.blog-content{
+margin-left: 60px;
 }
