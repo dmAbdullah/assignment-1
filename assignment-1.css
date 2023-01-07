@@ -82,14 +82,16 @@ body {
 
 
 /* Plan styles */
-.plans-container {
-  display: flex;
-  gap: 50px;
-}
 
 .plans {
   text-align: center;
-  margin: 0 310px;
+  margin: auto;
+}
+
+.plans-container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
 }
 
 /* gradient styles */
