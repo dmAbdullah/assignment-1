@@ -1,6 +1,6 @@
 /* header styles */
 body {
-  background-image: url(/images/banner/banner1.png);
+  background-image: url(images/banner/banner1.png);
   background-repeat: no-repeat;
   background-position: top left;
 }
@@ -95,7 +95,7 @@ p{
 .gradient {
   color: rgb(255, 255, 255);
   padding: 20px;
-  background-image: url(/images/watch.png);
+  background-image: url(images/watch.png);
   background-repeat: no-repeat;
   background-position: center;
   border: 0px;
@@ -132,6 +132,10 @@ p{
   width: 280px;
 }
 
-/* .footer-img{
-  padding-right:5px;
-} */
+.footer-img{
+  padding-right: 20px;
+}
+
+img{
+  padding-right: 20px;
+}
