@@ -1,4 +1,7 @@
 /* header styles */
+*{
+  font-family: 'Work Sans';
+}
 body {
   background-image: url(images/banner/banner1.png);
   background-repeat: no-repeat;
@@ -16,7 +19,7 @@ h1 {
 }
 
 p{
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .title {
