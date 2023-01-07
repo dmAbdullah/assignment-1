@@ -105,18 +105,23 @@ body {
   background-position: center;
   border: 0px;
   border-radius: 5px;
-  padding: 50px;
+
   
 }
 
 .gradient-content {
-  margin-left: 100px;
+  margin-left: 65px;
   margin-bottom: 80px;
-  margin-top: 100px;
+  margin-top: 80px;
   height:305px;
   background-image: linear-gradient(to right, 
-  rgb(255, 173, 21), rgba(255, 160, 21, 0));
+  rgb(255, 104, 4), rgba(255, 160, 21, 0));
+  padding: 0px;
+  border: 0px;
+  border-radius: 5px;
 }
+
+/* footer styles */
 
 .footer-content {
   display: flex;
@@ -124,8 +129,6 @@ body {
   background: rgba(4, 5, 10, 0.884);
   padding: 50px;
 }
-
-/* footer styles */
 
 .footer-description {
   margin-left: 60px;
@@ -139,6 +142,7 @@ body {
 .input-field {
   height: 40px;
   width: 280px;
+  font-size: 15px;
 }
 
 .footer-pic{
