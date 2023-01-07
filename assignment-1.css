@@ -16,10 +16,36 @@ p {
 
 /* header styles */
 
+.navigation{
+  background-color: gray; 
+  width: 100%;
+  padding: 5px;
+}
+
+.navigation ul {
+list-style: none;
+display: flex;
+gap: 50px;
+justify-content: center;
+
+}
+
+.navigation li{
+font-size: 20px;
+font-weight: 600;
+color: rgb(255, 211, 13);
+
+}
+
+.navigation :hover{
+  color: aquamarine;
+}
+
 body {
   background-image: url(images/banner/banner1.png);
   background-repeat: no-repeat;
   background-position: top left;
+  margin: 0px;
 }
 
 .banner-content {
@@ -37,7 +63,6 @@ body {
   border: 0px;
   border-radius: 5px;
   padding: 12px 20px;
-
   margin-top: 20px;
 }
 
