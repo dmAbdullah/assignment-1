@@ -1,12 +1,12 @@
-*{
-  font-family: 'Work Sans';
-} 
+* {
+  font-family: "Work Sans";
+}
 
 h1 {
   font-size: 40px;
 }
 
-p{
+p {
   font-size: 15px;
 }
 
@@ -80,9 +80,6 @@ body {
   margin-left: 60px;
 }
 
-.blog-item {
-  margin-left: 20px;
-}
 
 /* Plan styles */
 .plans-container {
@@ -99,24 +96,24 @@ body {
 
 .gradient {
   color: rgb(255, 255, 255);
-  padding: 20px;
-  background-image: url(images/watch.png);
+  background-image: linear-gradient(
+      to right,
+      rgb(255, 104, 4),
+      rgba(255, 160, 21, 0)), url(images/watch.png);
   background-repeat: no-repeat;
   background-position: center;
   border: 0px;
   border-radius: 5px;
-
-  
+  width: 1080px;
+  align-items: center;
 }
 
 .gradient-content {
+  position: center;
   margin-left: 65px;
   margin-bottom: 80px;
   margin-top: 80px;
-  height:305px;
-  background-image: linear-gradient(to right, 
-  rgb(255, 104, 4), rgba(255, 160, 21, 0));
-  padding: 0px;
+  height: 305px;
   border: 0px;
   border-radius: 5px;
 }
@@ -145,11 +142,8 @@ body {
   font-size: 15px;
 }
 
-.footer-pic{
+.footer-pic {
   display: flex;
   gap: 15px;
 }
 
-/* img{
-  padding-right: 15px;
-} */
