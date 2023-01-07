@@ -16,29 +16,27 @@ p {
 
 /* header styles */
 
-.navigation{
-  background-color: gray; 
+.navigation {
+  background-color: gray;
   width: 100%;
   padding: 5px;
 }
 
 .navigation ul {
-list-style: none;
-display: flex;
-gap: 50px;
-justify-content: center;
-
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
 }
 
-.navigation li{
-font-size: 20px;
-font-weight: 600;
-color: rgb(255, 211, 13);
-
+.navigation li {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(255, 211, 13);
 }
 
-.navigation :hover{
-  color: aquamarine;
+.navigation :hover {
+  color: rgb(237, 252, 35);
 }
 
 body {
@@ -98,20 +96,17 @@ body {
   width: 470px;
   height: 580px;
   margin-bottom: 50px;
- 
 }
 
-
-.blog-container-left{
- width: 50%;
- text-align: right;
+.blog-container-left {
+  width: 50%;
+  text-align: right;
 }
 
-.blog-container-right{
- width: 50%;
- margin-left: 60px;
+.blog-container-right {
+  width: 50%;
+  margin-left: 60px;
 }
-
 
 /* Plan styles */
 
@@ -130,8 +125,12 @@ body {
 
 .gradient {
   color: rgb(255, 255, 255);
-  background-image: linear-gradient(to right,rgb(255, 104, 4),rgba(255, 160, 21, 0)), 
-  url(images/watch.png);
+  background-image: linear-gradient(
+      to right,
+      rgb(255, 104, 4),
+      rgba(255, 160, 21, 0)
+    ),
+    url(images/watch.png);
   background-repeat: no-repeat;
   border: 0px;
   border-radius: 5px;
@@ -147,11 +146,10 @@ body {
   border: 0px;
   border-radius: 5px;
   padding: 50px;
-
 }
 
-.gradient-content button{
-margin-top: 0px;
+.gradient-content button {
+  margin-top: 0px;
 }
 
 /* footer styles */
@@ -182,4 +180,3 @@ margin-top: 0px;
   display: flex;
   gap: 15px;
 }
-
