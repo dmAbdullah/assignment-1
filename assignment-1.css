@@ -106,12 +106,16 @@ body {
   border: 0px;
   border-radius: 5px;
   padding: 50px;
+  
 }
 
 .gradient-content {
   margin-left: 100px;
   margin-bottom: 80px;
   margin-top: 100px;
+  height:305px;
+  background-image: linear-gradient(to right, 
+  rgb(255, 173, 21), rgba(255, 160, 21, 0));
 }
 
 .footer-content {
