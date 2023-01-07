@@ -96,26 +96,28 @@ body {
 
 .gradient {
   color: rgb(255, 255, 255);
-  background-image: linear-gradient(
-      to right,
-      rgb(255, 104, 4),
-      rgba(255, 160, 21, 0)), url(images/watch.png);
+  background-image: linear-gradient(to right,rgb(255, 104, 4),rgba(255, 160, 21, 0)), 
+  url(images/watch.png);
   background-repeat: no-repeat;
-  background-position: center;
   border: 0px;
   border-radius: 5px;
   width: 1080px;
   align-items: center;
+  object-fit: cover;
+  margin: 80px auto 80px auto;
 }
 
 .gradient-content {
   position: center;
-  margin-left: 65px;
-  margin-bottom: 80px;
-  margin-top: 80px;
-  height: 305px;
+  margin-left: 30px;
   border: 0px;
   border-radius: 5px;
+  padding: 50px;
+
+}
+
+.gradient-content button{
+margin-top: 0px;
 }
 
 /* footer styles */
