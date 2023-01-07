@@ -65,8 +65,11 @@ body {
   margin: 0 310px;
 }
 
+/* gradient styles */
+
 .gradient {
   color: wheat;
+  padding: 20px;
   background-image: url(/images/watch.png);
   background-repeat: no-repeat;
   background-position: center;
