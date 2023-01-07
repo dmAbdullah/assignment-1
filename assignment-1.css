@@ -55,11 +55,11 @@ body {
 /* button hover styles */
 
 .primary-btn:hover {
-  color: rebeccapurple;
+  color: rgb(251, 255, 0);
 }
 
 .primary-btn1:hover {
-  color: rgb(253, 6, 212);
+  color: rgb(172, 3, 59);
 }
 
 /* blog styles */
