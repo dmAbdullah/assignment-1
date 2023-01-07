@@ -10,6 +10,15 @@ body {
   margin-top: 350px;
   margin-right: 100px;
 }
+h1{
+  font-size: 40px;
+}
+
+.title{
+  font-size: 30px;
+}
+
+
 /* button styles */
 .primary-btn {
   font-size: 18px;
@@ -20,7 +29,13 @@ body {
   border-radius: 5px;
   padding: 12px 20px;
   margin-top: 20px;
+  
 }
+
+.primary-btn:hover{
+  color: rebeccapurple;
+}
+
 .primary-btn1 {
   font-size: 18px;
   font-weight: 600;
@@ -30,6 +45,10 @@ body {
   border-radius: 5px;
   padding: 12px 20px;
   margin-top: 20px;
+}
+
+.primary-btn1:hover{
+  color: rgb(253, 6, 212);
 }
 
 /* blog styles */
@@ -68,7 +87,7 @@ body {
 /* gradient styles */
 
 .gradient {
-  color: wheat;
+  color: rgb(255, 255, 255);
   padding: 20px;
   background-image: url(/images/watch.png);
   background-repeat: no-repeat;
@@ -88,7 +107,7 @@ body {
 
 .footer-content {
   display: flex;
-  color: wheat;
+  color: white;
   background: rgba(4, 5, 10, 0.884);
   padding: 50px;
 }
@@ -100,6 +119,11 @@ body {
 }
 
 .subscribe{
- margin-right: 200px;
+ margin-right: 100px;
  margin-left: 300px;
+}
+
+.input-field{
+  height: 40px;
+  width: 280px;
 }
