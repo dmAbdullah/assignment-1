@@ -72,12 +72,19 @@ body {
 .blog-image {
   width: 470px;
   height: 580px;
-  margin-left: 206px;
   margin-bottom: 50px;
+ 
 }
 
-.blog-content {
-  margin-left: 60px;
+
+.blog-container-left{
+ width: 50%;
+ text-align: right;
+}
+
+.blog-container-right{
+ width: 50%;
+ margin-left: 60px;
 }
 
 
